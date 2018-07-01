@@ -31,3 +31,9 @@ const items= filtered.map(n=> {
 });
 console.log(items);
     
+//reduce()
+var numRed=[1,2,3,4,5];
+let sum= numRed.reduce(
+    (acc,curr)=> acc+curr
+    );
+    console.log(sum);
